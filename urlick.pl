@@ -84,7 +84,7 @@ sub parsey
 			print "\n* wrote to urlist.txt\n";
 		}
 	}
-	elsif($ARGV[2] eq 'get'{
+	elsif($ARGV[2] eq 'get'){
 		for my $target(@urlist)
 		{
 		   	if($target !~ /^http/i){$target="$base/$target"}
